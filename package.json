@@ -7,22 +7,32 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "preinstall": "npx npm-force-resolutions"
   },
   "devDependencies": {},
   "dependencies": {
+    "jquery": "^3.6.0",
+    "knex": "0.21.18",
+    "lodash": "^4.17.21",
+    "property-expr": "^2.0.4",
+    "sqlite3": "5.0.0",
     "strapi": "3.6.1",
     "strapi-admin": "3.6.1",
-    "strapi-utils": "3.6.1",
-    "strapi-plugin-content-type-builder": "3.6.1",
-    "strapi-plugin-content-manager": "3.6.1",
-    "strapi-plugin-users-permissions": "3.6.1",
-    "strapi-plugin-email": "3.6.1",
-    "strapi-plugin-upload": "3.6.1",
-    "strapi-plugin-i18n": "3.6.1",
     "strapi-connector-bookshelf": "3.6.1",
-    "knex": "0.21.18",
-    "sqlite3": "5.0.0"
+    "strapi-plugin-content-manager": "3.6.1",
+    "strapi-plugin-content-type-builder": "3.6.1",
+    "strapi-plugin-email": "3.6.1",
+    "strapi-plugin-i18n": "3.6.1",
+    "strapi-plugin-upload": "3.6.1",
+    "strapi-plugin-users-permissions": "3.6.1",
+    "strapi-provider-upload-cloudinary": "^3.6.1",
+    "strapi-utils": "3.6.1"
+  },
+  "resolutions": {
+    "property-expr": "^2.0.4",
+    "lodash": "^4.17.21",
+    "jquery": "^3.6.0"
   },
   "author": {
     "name": "A Strapi developer"
